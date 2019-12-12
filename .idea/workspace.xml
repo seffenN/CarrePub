@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="684dc0ad-8a07-466e-a288-47c5cc9e4f7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_12_12_2019_17_27_c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_03c82141ffe10dac51b1f96493459553.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_05c4f1719832d55554efbcc81db1f198.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_095761036786279ffd12ee12ae7634c9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_0a8e71a8a491da9e47ea9a2a6dd81c01.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_0e4a78fdae93d0dde6cbccbffdf62047.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_1105b03fbd3580ed0c2d7c40aa0079bb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_2741adbc6d9f04dbf61aed61ef226f4e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_2bd1719bda748ff031c42ad761cf2034.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_3207d73c131bb43f0217e7bb1da76ed0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_3cf49b2aeb00fe635d2725dd59fd40b4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_49266a89b8283adef56c24e2f97a4675.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_75e9110ca9065f025d48c59634bd998d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_85559993a32768e5799b44bc95f3763a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_86155d9955fbb9e7675936ca89698305.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_8bd2a159489a6160ae434917ad5d40d1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_987b09befc21e80fb7cbdf9a77a56d20.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_9a56e47bb4a9b066b566c5a6d741a3f4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_9c829b322b9c77872d152f861e46bbd5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_a8507b8ff31ab928a8845aeefca909e7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_b228d589ae79926f927bf530e4671a2b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_b895568c320231c1b15642c6bc2cf338.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_c3d0badb1547760eb7cb8f994c5aadb6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_c84d24062d689bd962bca2b6b918e9de.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_cce42cb2a4a4d7edcff96b77039d5310.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_de769ae599c5b68365ecf21ff171a341.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_f042b70037ad8d273de3bbe5500e0311.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_f2cb74340afbdbc8d3fa2700ba431e8c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_fdeed4ceb656d1a487ae88fc6ba5c4f8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_fee7deda7b003570958d2a36ca3d43e9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/autoptimize_0361a541d9ad7823a48a89618102fedd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/autoptimize_038be7fa6144eef014926ae3449f764f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/autoptimize_1e847ac33f3857243e1babf709679cdc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/autoptimize_2dd82f96f9a0ec5ee0132400917a0b92.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/autoptimize_8ede9446e87e92464497b9d5fa8760db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/autoptimize_e88015c606ad89a5a0f70fec41b21c1c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="684dc0ad-8a07-466e-a288-47c5cc9e4f7a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576106944588</updated>
-      <workItem from="1576106945870" duration="36452000" />
+      <workItem from="1576106945870" duration="36660000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1576108300678</created>
@@ -245,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576108662195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.0">
+      <created>1576194521140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576194521187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,8 +222,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.0" />
     <MESSAGE value="2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
 </project>
