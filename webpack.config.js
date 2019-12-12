@@ -7,6 +7,7 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 }
 
 Encore
+
     // directory where compiled assets will be stored
     .setOutputPath('public/build/')
     // public path used by the web server to access the output path
@@ -24,12 +25,15 @@ Encore
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
     .addEntry('app', './assets/js/app.js')
-    .addEntry('autoptimize1', './assets/js/autoptimize_1e847ac33f3857243e1babf709679cdc.js')
-    .addEntry('autoptimize2', './assets/js/autoptimize_2dd82f96f9a0ec5ee0132400917a0b92.js')
-    .addEntry('autoptimize3', './assets/js/autoptimize_8ede9446e87e92464497b9d5fa8760db.js')
-    .addEntry('autoptimize4', './assets/js/autoptimize_038be7fa6144eef014926ae3449f764f.js')
-    .addEntry('autoptimize5', './assets/js/autoptimize_0361a541d9ad7823a48a89618102fedd.js')
-    .addEntry('autoptimize6', './assets/js/autoptimize_e88015c606ad89a5a0f70fec41b21c1c.js')
+    .addEntry('boostrap', './assets/js/boostrap/js/bootstrap.min.js')
+    .addEntry('swiper', './assets/js/jquery/swiper/js/swiper.jquery.js')
+
+
+
+
+
+
+
     //.addEntry('page1', './assets/js/page1.js')
     //.addEntry('page2', './assets/js/page2.js')
 
