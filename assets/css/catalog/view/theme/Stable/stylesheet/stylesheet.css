@@ -1,4 +1,4 @@
-
+@import '~font-awesome';
 body {
 	color: #808080;
 	background: #fff;
@@ -94,7 +94,7 @@ div.required .control-label:before {
     font-weight: 400;
     min-height: 35px;
     line-height: 20px;
-    background: #a3a3a3;
+    background: #D2691E;
 }
 #top #cznavcmsblock {
     display: inline-block;

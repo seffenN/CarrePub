@@ -27,6 +27,24 @@ Encore
     .addEntry('app', './assets/js/app.js')
     .addEntry('boostrap', './assets/js/boostrap/js/bootstrap.min.js')
     .addEntry('swiper', './assets/js/jquery/swiper/js/swiper.jquery.js')
+    .addEntry('jquery', './assets/js/jquery/jquery-2.1.1.min.js')
+    .addEntry('common', './assets/js/common.js')
+    .addEntry('custom', './assets/js/codezeel/custom.js')
+    .addEntry('jstree', './assets/js/codezeel/jstree.min.js')
+    .addEntry('codezeel', './assets/js/codezeel/codezeel.min.js')
+    .addEntry('jquerycustom', './assets/js/codezeel/jquery.custom.min.js')
+    .addEntry('formalizecustom', './assets/js/codezeel/jquery.formalize.min.js')
+    .addEntry('lightbox', './assets/js/lightbox/lightbox-2.6.min.js')
+    .addEntry('elevatezoom', './assets/js/codezeel/jquery.elevatezoom.min.js')
+    .addEntry('carousel', './assets/js/codezeel/carousel.min.js')
+    .addEntry('bootstrapn', './assets/js/codezeel/bootstrap-notify.min.js')
+    .addEntry('owl', './assets/js/codezeel/owl.carousel.min.js')
+    .addEntry('jquerymagnific', './assets/js/jquery/magnific/jquery.magnific-popup.min.js')
+    .addEntry('parallax', './assets/js/codezeel/parallax.js')
+    .addEntry('tabs', './assets/js/codezeel/tabs.js')
+
+
+
 
 
 
