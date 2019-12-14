@@ -1,6 +1,32 @@
 {% extends 'base.html.twig' %}
+ {% block head %}
+     <style type="text/css">
+         .ml6 {
+             position: relative;
+             font-weight: 900;
+             font-size: 3.3em;
+             background-color: white;
+         }
 
+         .ml6 .text-wrapper {
+             position: relative;
+             display: inline-block;
+             padding-top: 0.2em;
+             padding-right: 0.05em;
+             padding-bottom: 0.1em;
+             overflow: hidden;
+         }
+
+         .ml6 .letter {
+             display: inline-block;
+             line-height: 1em;
+         }
+     </style>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+ {% endblock %}
    {% block content %}
+
+
 <div class="wrap-breadcrumb parallax-breadcrumb">
     <div class="container"></div>
 </div>
@@ -19,11 +45,16 @@
                 <div id="slideshow0" class="swiper-container">
                     <div class="swiper-wrapper">
 
-                        <div class="swiper-slide text-center"><a href="#"><img
-                                        src="image/catalog/slide2.jpg" alt="Main Banner1" class="img-responsive"/></a></div>
+                        <div class="swiper-slide text-center">
+                            <h2 class="ml6">
+                            <span class="text-wrapper">
+                          <span class="letters" style="color: #ee6b0b;">Les meilleurs pour votre  Enseigne</span>
+                             </span>
+                            </h2>
+                            <a href="#"><img src="image/catalog/slide2.jpg" alt="Main Banner1" class="img-responsive"/></a></div>
 
                     </div>
-             
+
                     <div class="swiper-pagination slideshow0"></div>
                     <div class="swiper-pager">
                         <div class="swiper-button-next"></div>
@@ -45,58 +76,60 @@
                </article>
            </main>
        </div>
-    <div class="row home_row">
-        <div id="content" class="col-sm-12">
-            <div id="czaboutcmsblock" class="about-cms-block">
-                <div class="container aboutus-container">
-                    <div class="about-store">
-                        <div class="about-store-inner">
-                            <div class="left-part">
-                                <div class="about-image">
-                                    <div class="left-image top">
-                                        <div class="leftbanner aboutcms-image1  animation-element slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/aboutcms1.jpg" alt="about-store1" title="about-store1"></a></div>
-                                        <div class="leftbanner aboutcms-image2  animation-element slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/aboutcms2.jpg" alt="about-store2" title="about-store2"></a></div>
+            <div class="row home_row">
+
+                <div id="content" class="col-sm-12">  <div id="czaboutcmsblock" class="about-cms-block">
+                        <div class="container aboutus-container">
+                            <div class="about-store">
+                                <div class="about-store-inner">
+                                    <div class="left-part">
+                                        <div class="about-image">
+                                            <div class="left-image top">
+
+                                                <div class="leftbanner aboutcms-image1   slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/habillage.jpg" alt="about-store1" title="about-store1" style="width: 420px ;height:220px;"></a></div>
+                                                <div class="leftbanner aboutcms-image2   slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/enseigne.jpg" alt="about-store2" title="about-store2" style="width: 420px ;height:220px;"></a></div>
+                                            </div>
+                                            <div class="left-image bottom">
+                                                <div class="leftbanner aboutcms-image3  slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/sig.jpg" alt="about-store3" title="about-store3" style="width: 420px ;height:220px;"></a></div>
+                                                <div class="leftbanner aboutcms-image4  slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/lettre.jpg" alt="about-store4" title="about-store4" style="width: 420px ;height:220px;"></a></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="left-image bottom">
-                                        <div class="leftbanner aboutcms-image3 animation-element slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/aboutcms3.jpg" alt="about-store3" title="about-store3"></a></div>
-                                        <div class="leftbanner aboutcms-image4 animation-element slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/aboutcms4.jpg" alt="about-store4" title="about-store4"></a></div>
+                                    <div class="right-part">
+                                        <div class="mainheading"></div>
+                                        <div class="title">Nos Services</div>
+                                        <div class="storedetail"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span> <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                                        <div class="shop now"><a class="shop-now" href="#">Read More</a></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="right-part">
-
-                                <div class="title">Nos Services</div>
-                                <div class="storedetail"><span>Assurez une visibilité pour votre projet ou donnez-lui un nouveau souffle.</span>
-                                    <br>Carré pub vous guide et vous oriente pour mettre de la lumière sur vos projet
-                                </div>
-                                <div class="shop now"><a class="shop-now" href="#">Plus de Détails</a></div>
-                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="hometab box">
-                <div class="container">
-                    <div class="tab-head">
-                        <div class="hometab-heading box-heading">New Products</div>
-                        <div id="tabs" class="htabs">
-                            <ul class='etabs'>
-                                <li class='tab'>
-                                    <a href="#tab-latest">New Arrival</a>
-                                </li>
-                                <li class='tab'>
-                                    <a href="#tab-bestseller">Bestseller</a>
-                                </li>
-                                <li class='tab'>
-                                    <a href="#tab-special">Special</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <!-------------->
 
-                </div>
+
             </div>
         </div>
-    </div>
-</div>
- {% endblock %}
+
+
+    <script>
+       var textWrapper = document.querySelector('.ml6 .letters');
+       textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+       anime.timeline({loop: true})
+       .add({
+       targets: '.ml6 .letter',
+       translateY: ["1.1em", 0],
+       translateZ: 0,
+       duration: 750,
+       delay: (el, i) => 50 * i
+       }).add({
+       targets: '.ml6',
+       opacity: 0,
+       duration: 1000,
+       easing: "easeOutExpo",
+       delay: 1000
+       });
+    </script>
+
+   {% endblock %}
