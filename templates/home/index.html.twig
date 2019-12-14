@@ -1,135 +1,433 @@
 {% extends 'base.html.twig' %}
  {% block head %}
      <style type="text/css">
-         .ml6 {
-             position: relative;
-             font-weight: 900;
-             font-size: 3.3em;
-             background-color: white;
-         }
-
-         .ml6 .text-wrapper {
-             position: relative;
-             display: inline-block;
-             padding-top: 0.2em;
-             padding-right: 0.05em;
-             padding-bottom: 0.1em;
-             overflow: hidden;
-         }
-
-         .ml6 .letter {
-             display: inline-block;
-             line-height: 1em;
+         .wrapper:hover #slide {
+             transition: 1s;
+             left: 0;
          }
      </style>
+
+
      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
  {% endblock %}
    {% block content %}
 
 
-<div class="wrap-breadcrumb parallax-breadcrumb">
-    <div class="container"></div>
-</div>
-
-<!-- ======= Quick view JS ========= -->
-
-       <div id="primary" class="content-area">
-           <main id="main" class="site-main" role="main">
-
-               <article id="post-21" class="post-21 page type-page status-publish hentry">
-
-                   <div class="entry-content">
-        <div class="main-slider">
-
-            <div class="swiper-viewport">
-                <div id="slideshow0" class="swiper-container">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide text-center">
-                            <h2 class="ml6">
-                            <span class="text-wrapper">
-                          <span class="letters" style="color: #ee6b0b;">Les meilleurs pour votre  Enseigne</span>
-                             </span>
-                            </h2>
-                            <a href="#"><img src="image/catalog/slide2.jpg" alt="Main Banner1" class="img-responsive"/></a></div>
-
-                    </div>
-
-                    <div class="swiper-pagination slideshow0"></div>
-                    <div class="swiper-pager">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="czcategorylistblock" class="czcategory_listblock">
-                <div class="czcategory_block">
-                    <div class="customNavigation"><a class="btn prev category_prev">&nbsp;</a> <a
-                                class="btn next category_next">&nbsp;</a></div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-               </article>
-           </main>
+       <div class="wrap-breadcrumb parallax-breadcrumb">
+           <div class="container"></div>
        </div>
-            <div class="row home_row">
 
-                <div id="content" class="col-sm-12">  <div id="czaboutcmsblock" class="about-cms-block">
-                        <div class="container aboutus-container">
-                            <div class="about-store">
-                                <div class="about-store-inner">
-                                    <div class="left-part">
-                                        <div class="about-image">
-                                            <div class="left-image top">
+       <!-- ======= Quick view JS ========= -->
 
-                                                <div class="leftbanner aboutcms-image1   slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/habillage.jpg" alt="about-store1" title="about-store1" style="width: 420px ;height:220px;"></a></div>
-                                                <div class="leftbanner aboutcms-image2   slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/enseigne.jpg" alt="about-store2" title="about-store2" style="width: 420px ;height:220px;"></a></div>
-                                            </div>
-                                            <div class="left-image bottom">
-                                                <div class="leftbanner aboutcms-image3  slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/sig.jpg" alt="about-store3" title="about-store3" style="width: 420px ;height:220px;"></a></div>
-                                                <div class="leftbanner aboutcms-image4  slide-left aboutcms"><a href="#" class="banner-anchor"><img src="image/catalog/lettre.jpg" alt="about-store4" title="about-store4" style="width: 420px ;height:220px;"></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="right-part">
-                                        <div class="mainheading"></div>
-                                        <div class="title">Nos Services</div>
-                                        <div class="storedetail"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span> <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
-                                        <div class="shop now"><a class="shop-now" href="#">Read More</a></div>
-                                    </div>
+       <div class="content-top">
+           <div class="container">
+
+               <div class="main-slider">
+
+                   <div class="swiper-viewport">
+                       <div id="slideshow0" class="swiper-container">
+                           <div class="swiper-wrapper">
+
+                               <div class="swiper-slide text-center">
+
+                                   <a href="#"><img src="image/catalog/slide2.jpg" alt="Main Banner1"
+                                                    class="img-responsive"/></a></div>
+                               <div class="swiper-slide text-center">
+
+                                   <a href="#"><img src="image/catalog/slide2.jpg" alt="Main Banner2"
+                                                    class="img-responsive"/></a></div>
+                           </div>
+
+
+                           <div class="swiper-pagination slideshow0"></div>
+                           <div class="swiper-pager">
+                               <div class="swiper-button-next"></div>
+                               <div class="swiper-button-prev"></div>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div id="czcategorylistblock" class="czcategory_listblock">
+                       <div class="czcategory_block">
+                           <div class="customNavigation"><a class="btn prev category_prev">&nbsp;</a> <a
+                                       class="btn next category_next">&nbsp;</a></div>
+
+                       </div>
+                   </div>
+
+               </div>
+
+               <div id="czcategorylistblock" class="czcategory_listblock">
+                   <div class="czcategory_block">
+                       <div class="customNavigation"><a class="btn prev category_prev">&nbsp;</a> <a
+                                   class="btn next category_next">&nbsp;</a></div>
+                       <div class="category_lists">
+                           <ul id="ourcategory-carousel" class="cz-carousel">
+                               <li class="category_item item">
+                                   <div class="cate_image">
+                                       <div class="cate-inner"><a href="#"><img
+                                                       src="image/catalog/categorylist-img1.png" class="img-responsive"
+                                                       alt="category-img1.png"></a></div>
+                                   </div>
+                                   <div class="cate-details">
+                                       <div class="category-heading"><a href="#">Habillage de Façade</a></div>
+                                       <div class="shop-now"><a href="#">Shop Now &gt;&gt;</a></div>
+                                   </div>
+                               </li>
+                               <li class="category_item item">
+                                   <div class="cate_image">
+                                       <div class="cate-inner"><a href="#"><img
+                                                       src="image/catalog/categorylist-img2.png" class="img-responsive"
+                                                       alt="category-img2.png"></a></div>
+                                   </div>
+                                   <div class="cate-details">
+                                       <div class="category-heading"><a href="#">Enseigne tout support</a></div>
+                                       <div class="shop-now"><a href="#">Shop Now &gt;&gt;</a></div>
+                                   </div>
+                               </li>
+                               <li class="category_item item">
+                                   <div class="cate_image">
+                                       <div class="cate-inner"><a href="#"><img
+                                                       src="image/catalog/categorylist-img3.png" class="img-responsive"
+                                                       alt="category-img3.png"></a></div>
+                                   </div>
+                                   <div class="cate-details">
+                                       <div class="category-heading"><a href="#">Enseigne toiture</a></div>
+                                       <div class="shop-now"><a href="#">Shop Now &gt;&gt;</a></div>
+                                   </div>
+                               </li>
+                               <li class="category_item item">
+                                   <div class="cate_image">
+                                       <div class="cate-inner"><a href="#"><img
+                                                       src="image/catalog/categorylist-img4.png" class="img-responsive"
+                                                       alt="category-img4.png"></a></div>
+                                   </div>
+                                   <div class="cate-details">
+                                       <div class="category-heading"><a href="#">Signalétique urbaine</a></div>
+                                       <div class="shop-now"><a href="#">Shop Now &gt;&gt;</a></div>
+                                   </div>
+                               </li>
+                               <li class="category_item item">
+                                   <div class="cate_image">
+                                       <div class="cate-inner"><a href="#"><img
+                                                       src="image/catalog/categorylist-img5.png" class="img-responsive"
+                                                       alt="category-img5.png"></a></div>
+                                   </div>
+                                   <div class="cate-details">
+                                       <div class="category-heading"><a href="#">Lettres en boitier</a></div>
+                                       <div class="shop-now"><a href="#">Shop Now &gt;&gt;</a></div>
+                                   </div>
+                               </li>
+                               <li class="category_item item">
+                                   <div class="cate_image">
+                                       <div class="cate-inner"><a href="#"><img
+                                                       src="image/catalog/categorylist-img6.png" class="img-responsive"
+                                                       alt="category-img6.png"></a></div>
+                                   </div>
+                                   <div class="cate-details">
+                                       <div class="category-heading"><a href="#">Lettres en relief</a></div>
+                                       <div class="shop-now"><a href="#">Shop Now &gt;&gt;</a></div>
+                                   </div>
+                               </li>
+
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+
+           </div>
+       </div>
+
+
+               <!-------------->
+               <div class="hometab box">
+                   <div class="container">
+                       <div class="tab-head">
+                           <div class="hometab-heading box-heading">Nos Services</div>
+                           <div id="tabs" class="htabs">
+                           </div>
+                       </div>
+
+                       <div id="tab-latest" class="tab-content" style="display:block;">
+                           <div class="box">
+                               <div class="box-content">
+                                   <div class="customNavigation">
+                                       <a class="fa prev fa-arrow-left">&nbsp;</a>
+                                       <a class="fa next fa-arrow-right">&nbsp;</a>
+                                   </div>
+                                   <div class="box-product product-carousel " id="tablatest-carousel" style="opacity: 1;display: block">
+                                       <div class="slider-item">
+                                           <div class="product-block product-thumb transition slide-left">
+                                               <div class="blog-left">
+                                                   <div class="blog-image">
+                                                           <img src="image/catalog/habillage.jpg"
+                                                                style="width: 200px ;height:290px;"
+                                                           title="Aliquam Quaerat" alt="Aliquam Quaerat"
+                                                           class="img-responsive reg-image"/>
+                                                       <div class="product-details">
+                                                           <div class="caption">
+
+                                                               <h4>
+                                                                   <a href="index531d.html?route=product/product&amp;product_id=45">Habillage
+                                                                       de Façade </a></h4>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+
+
+                                           </div>
+                                       </div>
+                                       <div class="slider-item">
+                                           <div class="product-block product-thumb transition slide-left">
+                                               <div class="product-block-inner">
+                                                   <div class="image">
+                                                       <a href="">
+                                                           <img src="image/catalog/enseigne.jpg"
+                                                                style="width: 200px ;height:290px;"
+                                                                title="Aliquam Quaerat" alt="Aliquam Quaerat"
+                                                                class="img-responsive reg-image"/>
+                                                       </a>
+                                                       <div class="product-details">
+                                                           <div class="caption">
+
+                                                               <h4>
+                                                                   <a href="index531d.html?route=product/product&amp;product_id=45">Enseigne
+                                                                       tout support </a></h4>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+
+
+                                           </div>
+                                       </div>
+                                       <div class="slider-item">
+                                           <div class="product-block product-thumb transition slide-left">
+                                               <div class="product-block-inner">
+                                                   <div class="image">
+                                                       <a href="">
+                                                           <img src="image/catalog/toiture.jpg"
+                                                                style="width:200px ;height:290px;"
+                                                                title="Aliquam Quaerat" alt="Aliquam Quaerat"
+                                                                class="img-responsive reg-image"/>
+                                                       </a>
+                                                       <div class="product-details">
+                                                           <div class="caption">
+
+                                                               <h4>
+                                                                   <a href="index531d.html?route=product/product&amp;product_id=45">Enseigne
+                                                                       toiture </a></h4>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="slider-item">
+                                           <div class="product-block product-thumb transition slide-left">
+                                               <div class="product-block-inner">
+                                                   <div class="image">
+                                                       <a href="">
+                                                           <img src="image/catalog/sig.jpg"
+                                                                style="width:200px ;height:290px;"
+                                                                title="Aliquam Quaerat" alt="Aliquam Quaerat"
+                                                                class="img-responsive reg-image"/>
+                                                       </a>
+                                                       <div class="product-details">
+                                                           <div class="caption">
+
+                                                               <h4>
+                                                                   <a href="index531d.html?route=product/product&amp;product_id=45">Signalétique urbaine</a></h4>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="slider-item">
+                                           <div class="product-block product-thumb transition slide-left">
+                                               <div class="product-block-inner">
+                                                   <div class="image">
+                                                       <a href="">
+                                                           <img src="image/catalog/lettre.jpg"
+                                                                style="width:200px ;height:290px;"
+                                                                title="Aliquam Quaerat" alt="Aliquam Quaerat"
+                                                                class="img-responsive reg-image"/>
+                                                       </a>
+                                                       <div class="product-details">
+                                                           <div class="caption">
+
+                                                               <h4>
+                                                                   <a href="index531d.html?route=product/product&amp;product_id=45">Lettres en boitier</a></h4>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+
+
+
+
+
+
+
+                   </div>
+               </div>
+       <div id="carousel-0" class="banners-slider-carousel box">
+           <div class="container">
+               <div class="box-heading">Top Brands</div>
+               <div class="carousel-block">
+                   <div class="customNavigation">
+                       <a class="brand-prev fa prev">&nbsp;</a>
+                       <a class="brand-next fa next">&nbsp;</a>
+                   </div>
+                   <div class="brand-carousel" id="module-0-carousel">
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/4-130x87.png" alt="Nintendo" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/3-130x87.png" alt="Starbucks" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/2-130x87.png" alt="Disney" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/1-130x87.png" alt="Dell" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/7-130x87.png" alt="Harley Davidson" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/6-130x87.png" alt="Canon" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/5-130x87.png" alt="Burger King" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/4-130x87.png" alt="Coca Cola" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/3-130x87.png" alt="Sony" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/2-130x87.png" alt="RedBull" />
+                               </div>
+                           </div>
+                       </div>
+                       <div class="slider-item">
+                           <div class="product-block">
+                               <div class="product-block-inner">
+                                   <img src="image/cache/catalog/1-130x87.png" alt="NFL" />
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <span class="module_default_width" style="display:none; visibility:hidden"></span>
+<div class="box blogs">
+    <div class="container">
+        <div class="box-head">
+            <div class="box-heading">Projets Récents</div>
+        </div>
+        <div class="box-content">
+            <div class="customNavigation">
+                <a class="fa prev czblog_prev"></a>
+                <a class="fa next czblog_next"></a>
+            </div>
+            <div class="box-product  " id="blog-carousel">
+                <div class="blog-item">
+                    <div class="product-block ">
+                        <div class="product-block-inner">
+                            <div class="blog-left">
+                                <div class="blog-image">
+                                    <img src="image/cache/catalog/blog-6-1105x1359.jpg" alt="Updated Blog" title="Updated Blog" class="img-thumbnail" style="width:300px ;height:300px;" />
+                                    <div class="post-image-hover"></div>
+                                    <p class="post_hover">
+                                        <a class="icon zoom" title="Click to view Full Image " href="image/cache/catalog/blog-6-1105x1359.jpg" data-lightbox="example-set" >
+                                            <i class="fa fa-search-plus"></i>
+                                        </a>
+                                        <a class="icon readmore_link" title="Click to view Read More " href="index2c9f.html?route=information/blogger&amp;blogger_id=6">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-------------->
-
-
+                </div>
+            </div>
+            <div class="box-product  " id="blog-carousel">
+                <div class="blog-item">
+                    <div class="product-block ">
+                        <div class="product-block-inner">
+                            <div class="blog-left">
+                                <div class="blog-image">
+                                    <img src="image/catalog/bolbol.jpg" alt="Updated Blog" title="Updated Blog" class="img-thumbnail" style="width:300px ;height:300px;" />
+                                    <div class="post-image-hover"></div>
+                                    <p class="post_hover">
+                                        <a class="icon zoom" title="Click to view Full Image " href="image/catalog/bolbol.jpg" data-lightbox="example-set" >
+                                            <i class="fa fa-search-plus"></i>
+                                        </a>
+                                        <a class="icon readmore_link" title="Click to view Read More " href="index2c9f.html?route=information/blogger&amp;blogger_id=6">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-    <script>
-       var textWrapper = document.querySelector('.ml6 .letters');
-       textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-       anime.timeline({loop: true})
-       .add({
-       targets: '.ml6 .letter',
-       translateY: ["1.1em", 0],
-       translateZ: 0,
-       duration: 750,
-       delay: (el, i) => 50 * i
-       }).add({
-       targets: '.ml6',
-       opacity: 0,
-       duration: 1000,
-       easing: "easeOutExpo",
-       delay: 1000
-       });
-    </script>
+    </div>
+</div>
 
    {% endblock %}

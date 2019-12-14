@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="684dc0ad-8a07-466e-a288-47c5cc9e4f7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/home/contact.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/info.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/service.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/travaux.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/catalog/view/javascript/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/catalog/view/javascript/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/catalog/view/theme/Stable/stylesheet/codezeel/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/catalog/view/theme/Stable/stylesheet/codezeel/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +193,8 @@
       <workItem from="1576106945870" duration="36660000" />
       <workItem from="1576194803567" duration="419000" />
       <workItem from="1576232621869" duration="8621000" />
-      <workItem from="1576247412995" duration="21866000" />
+      <workItem from="1576247412995" duration="25104000" />
+      <workItem from="1576322060742" duration="11550000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1576108300678</created>
@@ -228,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576261505592</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="services">
+      <created>1576281868904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576281868904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +262,7 @@
     <MESSAGE value="1.0" />
     <MESSAGE value="2.1" />
     <MESSAGE value="fontawesome + index + layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="fontawesome + index + layout" />
+    <MESSAGE value="services" />
+    <option name="LAST_COMMIT_MESSAGE" value="services" />
   </component>
 </project>
